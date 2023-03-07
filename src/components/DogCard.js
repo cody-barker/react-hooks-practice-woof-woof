@@ -1,6 +1,6 @@
 import React from 'react'
 
-function DogCard({pup, dogDetail, setDogDetail}) {
+function DogCard({pup, setDogDetail}) {
 
     function handleGoodDog(pup) {
         fetch(`http://localhost:3001/pups/${pup.id}`, {
